@@ -1,0 +1,22 @@
+{
+  "name": "Antrax",
+  "version": "1.0.0",
+  "description": "Antrax multihack",
+  "homepage_url": "https://github.com/viktorvesely/krankerIO",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "storage",
+    "*://*/*",
+    "declarativeContent",
+    "webRequest",
+    "webRequestBlocking",
+    "background"
+  ],
+  "web_accessible_resources": [
+    "game.js"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
